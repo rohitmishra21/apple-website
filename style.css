@@ -1,0 +1,548 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 6%;
+    background: rgb(87, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+    font-size: 12px;
+}
+
+.icon{
+    font-size: 17px;
+    color: #fff;
+}
+.main{
+    color: #fff;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+    font-size: 13px;
+   
+
+}
+.main a{
+    text-decoration: none;
+    color: royalblue;
+}
+.header{
+  height: 90%;
+  width: 100%;
+  background-image: url( https://www.apple.com/v/home/bn/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg
+  );
+  background-size: 150%;
+  background-position: center;
+  padding: 50px;
+  background-repeat: no-repeat;
+
+}
+.header h1{
+    color: #fff;
+   font-size: 3.2rem;
+   font-weight: 600;
+   margin-bottom: 5px;
+   text-align: center;
+}
+.header h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+   
+}
+ .btn-2{
+   padding: 12px 35px;
+   border-radius: 50px;
+   background-color: royalblue;
+   border: none;
+   color: #fff;
+   font-size: 17px;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+ .btn{
+    padding: 12px 35px;
+    border-radius: 50px;
+    background-color:transparent;
+    border: 2px solid royalblue;
+    color: royalblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color:royalblue;
+    color: #fff;
+}
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++ second page ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.header-2{
+   
+    height: 80%;
+    width: 100%;
+    background-image: url(  https://www.apple.com/v/home/bn/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg
+
+    );
+    background-size: 150%;
+    background-position: center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  
+  }
+
+
+
+.header-2 h1{
+    color: #000;
+   font-size: 3.2rem;
+   font-weight: 500;
+   margin-bottom: 5px;
+   text-align: center;
+
+}
+.header-2 h2{
+    color: #000;
+    font-weight: 100;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* _____________________________________________________________3rd page _____________________________________________________ */
+
+.header-3{
+    height: 80%;
+    width: 100%;
+    background-image: url(   https://www.apple.com/v/home/bn/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_largetall_2x.jpg 
+    );
+    background-size: 150%;
+    background-position: bottom;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-color: black;
+  
+  }
+
+
+
+.header-3 h1{
+    color: #fff;
+   font-size: 3.2rem;
+   font-weight: 500;
+   margin-bottom: 5px;
+   text-align: center;
+
+}
+.header-3 h2{
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+/* """"""""""""""""""""""""""""""""""page 4 """""""""""""""""""""""""""""""""""""""""""""""" */
+
+    .header-4{
+    
+        margin-top: 30px;
+        background: #fff;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .header-4 .ione{
+    
+        margin-top: 20px;
+        background-image: url(https://www.apple.com/v/home/bn/images/promos/wwdc24-announce/promo_wwdc24__poirs216yz2u_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 49%;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    
+    }
+
+    .header-4 .mat{
+        margin-top: 50%;
+    }
+    .header-4 .itwo{
+    
+        margin-top: 20px;
+    width: 49%;
+    height: 600px;
+    }
+    .header-4 .mat i {
+        font-size: xx-large;
+        
+    }
+    .header-4 .mat h1{
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .header-4 .mat h3{
+        font-weight: 300;
+    }
+    
+    /* _________________________________________________itwo +++++++++++++++++++++++++++++++++++++ */ 
+
+    .header-4 .itwo{
+    
+        margin-top: 20px;
+        background-image: url(https://www.apple.com/v/home/bn/images/promos/ipad-air/promo_ipadair__cu1bnxi7uuwm_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 49%;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    
+    }
+
+    .header-4 .itwo h1{
+        color: #1e1d1d;
+    }
+    .header-4 .itwo h1 i{
+        color: rgb(0, 181, 252);
+    }
+    .header-4 .itwo h3{
+        color: rgb(80, 80, 80);
+        font-weight: 300;
+    }
+    .header-4 .itwo .btnm{
+    background-color: rgb(40, 39, 39);
+    }
+    .header-4 .itwo .btnmm{
+        background-color: transparent;
+        border: 2px solid  rgb(40, 39, 39);
+        color: gray;
+    }
+
+    .header-4 .itwo .btnmm:hover{
+        background-color: rgb(40, 39, 39);
+        border: 2px solid  rgb(40, 39, 39);
+        color: white;
+    }
+
+    .header-4 .itwo .fir{
+        margin-top: 30px;
+    }
+/* 
+    {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ header -5}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+    .header-5{
+    
+        background: #fff;
+        display: flex;
+        width: 100%;
+       
+    }
+    .header-5 .ione{
+    
+        margin-top: 70px;
+        background-image: url(https://www.apple.com/v/home/bn/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 49%;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    
+    }
+
+    .header-5 .mat{
+        
+        color: #1e1d1d;
+    }
+    .header-5 .itwo{
+    
+        margin-top: 20px;
+    width: 49%;
+    height: 600px;
+    }
+    .header-5 .mat i {
+        font-size: xx-large;
+        
+    }
+    .header-5 .mat h1{
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+   .header-5 .ione .mat .btn{
+        padding: 12px 35px;
+        border-radius: 50px;
+        background-color:transparent;
+        border: 2px solid royalblue;
+        color: royalblue;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .header-5 .ione .mat .btn:hover{
+        background-color:royalblue;
+        color: #fff;
+    }
+    .header-5 .mat h3{
+        font-weight: 300;
+    }
+    
+    /* _________________________________________________itwo +++++++++++++++++++++++++++++++++++++ */ 
+
+    .header-5 .itwo{
+    
+        margin-top: 70px;
+        background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 51%;
+    height: 600px;
+    color: black;
+    text-align: center;
+    
+    }
+
+    .header-5 .itwo h1{
+        color: #1e1d1d;
+    }
+    
+    .header-5 .itwo h3{
+        color: orange;
+        font-weight: 600;
+    }
+    .header-5 .itwo h2{
+        color: #1e1d1d;
+        font-weight: 400;
+    }
+    
+    .header-5 .itwo h1 i{
+        color: #1e1d1d;
+       font-size: 2.8rem;
+    }
+    
+  
+
+    .header-5 .itwo .btn:hover{
+        background-color: royalblue;
+        border: 2px solid  royalblue;
+        color: white;
+    }
+
+    .header-5.itwo .fir{
+        margin-top: 30px;
+    }
+
+/* 
+    >??????????????????????????<<<<<<<<<<<<<<<<<<<<<<<<< header -006 +++++++++++++++++++++++++++++++++++++ */
+    .header-6{
+    
+        background: #fff;
+        display: flex;
+        width: 100%;
+       
+    }
+    .header-6 .ione{
+    
+        margin-top: 70px;
+        background-image: url(https://www.apple.com/v/home/bn/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 49%;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    
+    }
+
+    .header-6 .mat{
+        
+        color: #1e1d1d;
+    }
+    .header-6 .itwo{
+    
+        margin-top: 20px;
+    width: 50%;
+    height: 600px;
+    }
+    .header-6 .mat i {
+        font-size: xx-large;
+        
+    }+
+    .header-5 .mat h1{
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+   .header-6 .ione .mat .btn{
+        padding: 12px 35px;
+        border-radius: 50px;
+        background-color:transparent;
+        border: 2px solid royalblue;
+        color: royalblue;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .header-6 .ione .mat .btn:hover{
+        background-color:royalblue;
+        color: #fff;
+    }
+    .header-6 .mat h3{
+        font-weight: 300;
+    }
+    
+    /* _________________________________________________itwo +++++++++++++++++++++++++++++++++++++ */ 
+
+
+    .header-6 .itwo{
+    
+        margin-top: 70px;
+        background-image: url(https://www.apple.com/v/home/bn/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    width: 50%;
+    height: 600px;
+    color: black;
+    text-align: center;
+    
+    }
+
+    .header-6 .itwo h1{
+        color: #1e1d1d;
+    }
+    
+    .header-6 .itwo h3{
+        color: orange;
+        font-weight: 600;
+    }
+    .header-6 .itwo h2{
+        color: #1e1d1d;
+        font-weight: 400;
+    }
+    
+    .header-6 .itwo h1 i{
+        color: #1e1d1d;
+       font-size: 2.8rem;
+    }
+    
+  
+
+    .header-6 .itwo .btn:hover{
+        background-color: royalblue;
+        border: 2px solid  royalblue;
+        color: white;
+    }
+
+    .header-6.itwo .fir{
+        margin-top: 30px;
+    } 
+
+    /* ===================================================slider===================================================== */
+
+    .slider{
+        width: 100%;
+        height: 500px;
+        background-color: #fff;
+        border: 2px solid #fff;
+    }
+
+    .poster{
+        width: 80%;
+       background: #fff;
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 10%;
+        background-image: url(https://is1-ssl.mzstatic.com/image/thumb/XRVC0LFY33UhYRJc3uusMA/1250x703.jpg);
+        background-size: cover;
+        background-position: center;
+      animation: sider 20s linear 2s  infinite normal ;
+      
+    }
+   
+    @keyframes sider{
+        0%   { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/XRVC0LFY33UhYRJc3uusMA/1250x703.jpg);}
+        12%  { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/DwR3ldPe-AAH2-2Lk5dJyw/689x387.jpg);}
+        24%  { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/p_FDjZ2qWzA57PxYRo--bw/689x387.jpg);}
+        36% { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/p-dFQhrrenz0eg8_smgu9w/689x387.jpg);}
+        48% { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/VS95PyZVhEGvjTo5f-DtPQ/689x387.jpg);}
+        60% { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/i5y5PDuv51g6bV48moKF_Q/689x387.jpg);}
+       72% { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/canoqvu3Hzg4sLVO2U4TQw/689x387.jpg);}
+        100% { background-image: url(https://is1-ssl.mzstatic.com/image/thumb/VqqiLX2wq-nrosmMfEVUXw/1250x703.jpg);}
+    }
+
+    /* ==================================foter ============================ */
+
+    .footer{
+       background-color:#fff;
+       color: gray;
+       font-size: 0.8rem;
+       width: 100%;
+       height: 300px;
+    
+
+    }
+
+   .footer .last{
+       margin-left: 150px;
+       height: 250px;
+       
+       width: 90%;
+       text-align: start;
+       word-spacing: 10px;
+       letter-spacing: 1px;
+       border-bottom: 2px solid gray;
+    }
+
+    .lo{
+        color:#fff;
+    }
+    .finish{
+       color: gray;
+        display: flex;
+        justify-content: start;
+       font-size: 1.8remrem;
+        background-color: #fff;
+        gap: 90px;
+        font-weight: 200;
+    }
